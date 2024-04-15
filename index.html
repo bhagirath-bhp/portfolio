@@ -52,7 +52,7 @@
 
         <!-- ABOUT SECTION  -->
         <div id="container2">
-            <div class="title c2tit1">About Us</div>
+            <div class="title c2tit1">About Me</div>
             <div class="about">
                 <div class="c2left animatedBox">
                     <img src="Resources/student.png" alt="">
@@ -165,7 +165,7 @@
 
         <!-- CONTACT PAGE  -->
         <div id="container5">
-            <div class="title c5tit1">Contact Us</div>
+            <div class="title c5tit1">Contact Me</div>
             <div class="contact-page">
                 <div class="contact-ways">
                     <div class="contact-info animatedBox">
@@ -240,8 +240,8 @@
                         var position = box.getBoundingClientRect().top;
 
                         if (position < screenPosition) {
+                            box.classList.add('animate-right');
                             if (alternate) {
-                                box.classList.add('animate-right');
                             } else {
                                 box.classList.add('animate-left');
                             }
